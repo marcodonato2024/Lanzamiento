@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1b2a;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 9999;
+    color: #ffffff;
+}
+
+.countdown-wrapper {
+    text-align: center;
+    z-index: 10000;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #1b263b;
+    border-radius: 15px;
+    padding: 20px 40px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-box {
+    text-align: center;
+    color: #89a2c3;
+    font-size: 2.5em;
+}
+
+.countdown-box .label {
+    font-size: 0.8em;
+    color: #e0e0e0;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.separator {
+    font-size: 2.5em;
+    color: #89a2c3;
+}
+
+#joinButton {
+    display: none;
+    margin-top: 40px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #0078d4; /* Color de Microsoft Teams */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#joinButton:hover {
+    background-color: #005a9e;
+}
